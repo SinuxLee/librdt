@@ -53,4 +53,8 @@
 #define s_realloc realloc
 #define s_free free
 
+#define rax_malloc zmalloc
+#define rax_realloc zrealloc
+#define rax_free zfree
+
 #endif /* _ZMALLOC_H */
