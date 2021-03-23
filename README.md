@@ -3,12 +3,11 @@ Redis Data Structure contains:
 -   sds: A simple dynamic string
 -   adlist: A generic doubly linked list
 -   ziplist: A specially encoded dually linked list
--   quicklist:
--   skiplist:
+-   quicklist: A doubly linked list of ziplist
+-   skiplist: 待整理
 -   dict: Hash table
 -   zipmap: A string map data structure optimized for size
 -   intset: Integer set
--   zset:
 -   rax: A radix tree
 
 #### 工具类
